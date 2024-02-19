@@ -55,6 +55,8 @@
 #include <Unreal/World.hpp>
 #include <UnrealDef.hpp>
 
+#include "Property/FMapProperty.hpp"
+
 namespace RC
 {
     // Commented out because this system (turn off hotkeys when in-game console is open) it doesn't work properly.
