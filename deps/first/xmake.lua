@@ -27,6 +27,6 @@ target("patternsleuth_bind")
     add_files("patternsleuth_bind/src/lib.rs")
     add_packages("cargo::patternsleuth_bind")
 
-    add_links("ws2_32", "advapi32", "userenv", "ntdll", "oleaut32", "bcrypt", "ole32", { public = true })
+    add_links("ws2_32", "advapi32", "userenv", "ntdll", "oleaut32", "bcrypt", "ole32", "Synchronization", { public = true })
 
 -- Patternsleuth -> END

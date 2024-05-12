@@ -54,6 +54,7 @@
 #include <Unreal/UnrealInitializer.hpp>
 #include <Unreal/World.hpp>
 #include <UnrealDef.hpp>
+#include "Property/FMapProperty.hpp"
 
 namespace RC
 {
